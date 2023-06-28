@@ -1,12 +1,12 @@
-import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
+import ProductList from "./features/product-list/ProductList";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>
+        <ProductList/>
+      </h1>
     </div>
   );
 }
